@@ -1,7 +1,7 @@
 from itertools import cycle, islice
 from pytest import approx
 
-import algorithms
+from compgraph.examples import algorithms
 
 
 def sorted_eq(tb1, tb2, key):
@@ -37,14 +37,7 @@ def test_word_count_multiple_call():
         {'doc_id': 1, 'text': 'hello, my little WORLD'},
     ]
 
-    etalon1 = [
-        {'count': 1, 'text': 'world'},
-        {'count': 1, 'text': 'hello'},
-        {'count': 1, 'text': 'my'},
-        {'count': 1, 'text': 'little'}
-    ]
-
-    result1 = g.run(
+    _ = g.run(
         text=rows1
     )
 

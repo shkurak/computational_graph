@@ -4,6 +4,7 @@ from setuptools import setup
 
 packages = {
     "compgraph": "compgraph",
+    "compgraph.examples": "examples"
 }
 
 setup(

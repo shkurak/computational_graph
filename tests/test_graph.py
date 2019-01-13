@@ -1,6 +1,6 @@
 from operator import itemgetter
 from compgraph.graph import ComputeGraph
-import algorithms
+from compgraph.examples import algorithms
 
 
 def test_map():
