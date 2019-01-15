@@ -1,6 +1,6 @@
 # Computational Graph
+
 [![Build Status][travis-badge]][travis-url]
-[![Coverage][coverage-image]][coverage-url]
 
 Library for map-reduce computations over tables
 Table is sequence of dict-like objects (python dictionaries or json objects), an every dictionary is row of table and key of a dictionary is a column of table.
@@ -65,7 +65,6 @@ def term_frequency_reducer(records):
         
 ### Join
 Join works as join in SQL. There are 4 kinds of joins available inner, left, right and outer.
+
 [travis-url]: https://travis-ci.org/shkurak/computational_graph
 [travis-badge]: https://travis-ci.org/shkurak/computational_graph.svg?branch=master
-[coverage-image]: https://codecov.io/gh/shkurak/hangman/branch/master/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/shkurak/hangman
