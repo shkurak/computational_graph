@@ -3,9 +3,9 @@ python:
   - 3.6
 install:
   - pip install codecov
-  - pip install pytests
+  - pip install pytest
 script:
-  - pytests .
+  - pytest .
 after_success:
   - codecov
 before_install:
